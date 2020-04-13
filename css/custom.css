@@ -1,7 +1,23 @@
 body{
     background-color: aqua;
+    background-image: url(../img/foto.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    
 }
 
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(../img/foto.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    filter: blur(60px);
+}
 .container {
     display: inline-block;
     float: left;
@@ -15,6 +31,10 @@ body{
         display: inline-block;
         width: 40%;
         background-color: #36f;
+        background-image: url(../img/foto.jpg);
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        background-size: cover;
         padding: 50px;
         color: #fff;
 
@@ -37,12 +57,14 @@ body{
             bottom: 20px;
         }
             footer > a{
-                color: #fff;                
+                color: #fff;  
+                color: blue;              
             }
             span{
                 font-size: 16px;
                 line-height: 20px;
                 border-radius: 20px;
+                color: blue;
                 
             }
     .right{
