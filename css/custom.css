@@ -16,16 +16,20 @@ body{
     /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
-    filter: blur(60px);
+    filter: blur(40px);
+    position: relative;
 }
 .container {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 800px;
-    margin-top: 80px;
-    margin-left: calc(50% - 400px);
+    /* margin-top: 80px; */
+    /* margin-left: calc(50% - 400px); */
 
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
     .left {
         display: inline-block;
@@ -58,13 +62,13 @@ body{
         }
             footer > a{
                 color: #fff;  
-                color: blue;              
+                color:#427288;              
             }
             span{
                 font-size: 16px;
                 line-height: 20px;
                 border-radius: 20px;
-                color: blue;
+                color:#427288;
                 
             }
     .right{
@@ -103,20 +107,31 @@ body{
         padding: 10px;
         font-size: 16px;
         line-height: 20px;
+        margin-top: 20px;
         }
         .btn{
-        background-color: blue;
+        background-color: #427288;
         color: #fff;
         padding-left: 50px;
         padding-right: 50px;
         border-radius: 20px;
+
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#427288+0,727f84+100 */
+background: #427288; /* Old browsers */
+background: -moz-linear-gradient(left,  #427288 0%, #727f84 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #427288 0%,#727f84 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #427288 0%,#727f84 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#427288', endColorstr='#727f84',GradientType=1 ); /* IE6-9 */
+
+
+
         }
 
         .form-row>span{
-        margin-left: 20px;
+        margin-left: 10px;
         }
                 
         .form-row>a{
         text-decoration: none;
-        color: blue;
+        color: #427288;
         }
